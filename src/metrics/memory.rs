@@ -20,3 +20,15 @@ pub fn read_metric(sys : &SystemInfo) -> Result<String, std::io::Error> {
     let out = serde_json::to_string(&memory).unwrap();
     Ok(out)
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_read_metric() {
+        let sys = SystemInfo::new();
+        let out = read_metric(&sys).unwrap();
+        assert!(out.len() > 0);
+    }
+}

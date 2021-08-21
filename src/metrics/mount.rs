@@ -49,3 +49,22 @@ pub fn read_metric(sys: &System) -> Result<String, std::io::Error> {
         Err(err) => Err(err),
     }
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn test_read_metric() {
+        let sys = System::new();
+        let out = read_metric(&sys).unwrap();
+        assert!(out.len() > 0);
+    }
+
+    #[test]
+    fn test_read_metric_err() {
+        let sys = System::new();
+        let out = read_metric(&sys);
+        assert!(!out.is_err());
+    }
+}

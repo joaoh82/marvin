@@ -22,12 +22,12 @@ kill -9 <pid>
 - [x] Monitor disk usage metric as a POC
 - [x] Monitor memory usage metric as a POC
 - [x] Save data on local file on disk
-- [ ] Create install/startup script
 - [ ] Write tests
+- [ ] Import config file from /etc/marvin as TOML format
+- [ ] Create install/startup script
 - [ ] Publish on github as open source
 
 ### Roadmap
-- [ ] Import config file from /etc/marvin as TOML format
 - [ ] Add flags to control daemon
 - [ ] Connect to socket server with address at config
 - [ ] Create Makefile
