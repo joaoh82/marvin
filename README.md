@@ -1,4 +1,8 @@
 # Marvin - Metrics Tracker
+
+> What I cannot create, I do not understand. 
+> — Richard Feynman
+
 * Simple daemon built with Rust to track metrics.
 * The goal is run application as a daemon and track specific metrics. 
 * We also want to be able to send metrics to a server via a socket connection if option specified when starting the daemon.
@@ -50,3 +54,23 @@ make kill-marvin
   * Examples: https://github.com/unrelentingtech/systemstat/blob/master/examples/info.rs
   * Example: https://github.com/GuillaumeGomez/sysinfo
 
+### Contributing
+**Pull requests are warmly welcome!!!**
+
+For major changes, please [open an issue](https://github.com/joaoh82/marvin/issues/new) first and let's talk about it. We are all ears!
+
+If you'd like to contribute, please fork the repository and make changes as you'd like and shoot a Pull Request our way!
+
+**Please make sure to update tests as appropriate.**
+
+If you feel like you need it go check the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+### Code of Conduct
+
+Contribution to the project is organized under the terms of the
+Contributor Covenant, the maintainer of Marvin, [@joaoh82](https://github.com/joaoh82), promises to
+intervene to uphold that code of conduct.
+
+### Contact
+
+If you want to contact me you can reach me at <joaoh82@gmail.com>.
