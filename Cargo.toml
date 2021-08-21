@@ -1,0 +1,17 @@
+[package]
+name = "marvin"
+version = "0.1.0"
+authors = ["João Henrique Machado Silva <joaoh82@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+daemonize = "0.4.1"
+chrono = "0.4.19"
+systemstat = "0.1.8"
+sysinfo = "0.20.0"
+clap = "2.33.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+toml = "0.5"
