@@ -39,6 +39,7 @@ make kill-marvin
 - [ ] Add flags to control daemon
 - [ ] Connect to socket server with address at config if flag specified at startup
 - [ ] Send metrics to server if threasholds are met.
+- [ ] Improve local file storage
 
 
 ### Important Links, Sources and Notes

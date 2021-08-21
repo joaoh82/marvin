@@ -1,7 +1,6 @@
 use clap::{App, Arg};
 
 /// Starts CLI commands, subcommands and arguments
-///
 pub fn start_cli() -> clap::ArgMatches<'static> {
     let matches = App::new("Marvin - Metrics Tracker")
         .version("0.1")
