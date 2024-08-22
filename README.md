@@ -1,6 +1,6 @@
 # Marvin - Metrics Tracker
 
-[![Build Status](https://github.com/joaoh82/marvin/workflows/Rust/badge.svg)](https://github.com/joaoh82/marvin/actions)
+[![Build Status](https://github.com/joaoh82/marvin/workflows/Main/badge.svg)](https://github.com/joaoh82/marvin/actions)
 [![dependency status](https://deps.rs/repo/github/joaoh82/marvin/status.svg)](https://deps.rs/repo/github/joaoh82/marvin)
 [![Coverage Status](https://coveralls.io/repos/github/joaoh82/marvin/badge.svg?branch=main)](https://coveralls.io/github/joaoh82/marvin?branch=main)
 [![Maintenance](https://img.shields.io/badge/maintenance-actively%20maintained-brightgreen.svg)](https://deps.rs/repo/github/joaoh82/marvin)
