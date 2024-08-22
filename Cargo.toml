@@ -6,7 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-daemonize = "0.4.1"
+daemonize = "0.5.0"
 chrono = "0.4.19"
 systemstat = "0.1.8"
 sysinfo = "0.20.0"
