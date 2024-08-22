@@ -7,10 +7,10 @@ edition = "2021"
 
 [dependencies]
 daemonize = "0.5.0"
-chrono = "0.4.19"
-systemstat = "0.1.8"
-sysinfo = "0.20.0"
+chrono = "0.4.38"
+systemstat = "0.2.3"
+sysinfo = "0.31.2"
 clap = "2.33.3"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
-toml = "0.5"
+toml = "0.8.19"

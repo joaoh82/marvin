@@ -12,7 +12,7 @@ use metrics::{mount, memory};
 use std::fs::File;
 use std::{thread, time};
 use systemstat::{Platform, System};
-use sysinfo::{System as SystemInfo, SystemExt};
+use sysinfo::{System as SystemInfo};
 
 use std::io::Write;
 
