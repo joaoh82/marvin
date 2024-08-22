@@ -35,7 +35,8 @@ make kill-marvin
 - [x] Save data on local file on disk
 - [x] Create Makefile
 - [x] Write tests
-- [ ] Publish on github as open source
+- [x] Publish on github as open source
+- [ ] Add Github Actions to project
 - [ ] Import config file from /etc/marvin as TOML format
 - [ ] Create install/startup script
 
